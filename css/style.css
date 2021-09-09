@@ -1,0 +1,172 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+} 
+
+.background{
+    background: url(../Images/Landing_page.jpg) no-repeat center center fixed;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+.grid{
+    display: grid;
+    position: absolute;
+    top: 20vh;
+    left: 28vw;
+    grid-template-columns: 5fr 6fr 1fr;
+}
+
+.col2{
+    box-shadow: rgb(55 58 69 / 52%) 1px 0px 20px 9px;
+    border-radius: 10px;
+    display: grid;
+}
+
+
+.row1{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #D7D3D3;
+}
+
+.row2{
+    background-color: #B1ACAC;
+    text-align: center;
+}
+
+.row3{
+    text-align: center;
+    border: 5px solid #B1ACAC;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #B1ACAC;
+}
+
+p,h1{
+    margin-bottom: 0rem!important;
+}
+
+.rowcol2{
+    line-height: 68%;
+}
+
+img{
+    width: 13vw;
+}
+
+.rowcol2 p{
+    padding-top: 9px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.begin{
+    font-size: 290%;
+    padding-right: 7px;
+    font-weight: bold;
+    color: #CB472A;
+}
+
+.row2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.row2 .welcome{
+    padding-top: 9px;
+    font-size: larger;
+}
+
+.row2 .description {
+    font-size: medium;
+    padding: 5px;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none!important;
+}
+
+
+
+/* Media quaries */
+
+@media screen and (max-width: 470px) {
+
+    .grid{
+        top: 10%;
+        left: 1%;
+        right: 3%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .grid{
+        top: 10%;
+        left: 1%;
+        right: 2%;
+    }
+
+    img{
+        width: 17vw;
+    }
+
+    .begin{
+        font-size: 216%;
+    }
+
+    .row2 .welcome{
+        padding-top: 9px;
+        font-size: larger;
+    }
+    
+    .row2 .description {
+        font-size: medium;
+        padding: 5px;
+    }
+
+}
+
+@media screen and (min-width: 1100px) {
+
+    .grid{
+        top: 16%;
+    }
+
+    .row2 .description {
+        padding: 5px;
+        font-size: large;
+    }
+
+    .begin{
+        font-size: 380%;
+    }
+
+    .rowcol2{
+        line-height: 85%;
+    }
+
+    h1{
+        line-height: 1.0001!important;
+    }
+
+    .row2 .welcome{
+        font-size: x-large;
+        padding-top: 9px;
+    }
+
+    .rowcol2 p{
+        font-size: x-large;
+    }
+}

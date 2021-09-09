@@ -1,0 +1,403 @@
+body{
+    font-family: 'Comfortaa', cursive;
+}
+
+.btn-custom{
+    color: #fff;
+    background-color: #21475c;
+    border-color: #21475c;
+}
+
+.a-custom{
+    text-decoration: none!important;
+    color: white;
+}
+
+
+                    /* navbar & carousal */
+/* ................................................................... */
+.logo{
+    width: 23px;
+}
+
+.navbar {
+    background-color: #202B31
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: rgb(255 255 255 / 0%);
+}
+
+.navbar-brand{
+    font-size: xxx-large;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: initial;
+    color: rgb(187, 130, 31)!important;
+}
+
+
+@media only screen and (max-width: 500px) {
+    
+    .navbar-brand{
+        font-size: 2rem;
+    }
+    .carousel{
+        margin-top: 3.4rem;
+    }
+}
+
+
+.navbar-toggler {
+    background-color: #264653;
+}
+
+.navbar-nav {
+    font-size: 1.3em;
+    justify-content: flex-end;
+}
+
+.nav-item {
+    margin-right: 7px;
+}
+
+.d-block {
+    max-height: 95vh;
+}
+
+.carousel-caption button a{
+    text-decoration: none;
+    color: white;
+}
+
+.carousel-caption h2{
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 350px) {
+    .carousel-caption button{
+        font-size: .7rem;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 500px) {
+    .carousel-caption{
+        position: absolute;
+        right: 15%;
+        bottom: 0px;
+        left: 15%;
+        z-index: 10;
+        padding-top: 0px;
+        padding-bottom: 11px;
+        color: #fff;
+        text-align: center;
+        font-size: small;
+    }
+    
+    .carousel-caption h2{
+        font-size: medium;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .carousel-caption h2{
+        font-size: larger;
+        font-weight: 600;
+    }
+
+}
+
+                    /* Initiatives */
+/* ................................................... */
+
+#initiatives-title{
+    color: #b8801f;
+    font-size: xxx-large;
+}
+
+.card-footer {
+    text-align: center;
+    padding: 0 .75rem 1.25rem!important;
+    background-color: white ;
+    border-top: none;
+}
+
+.initiatives-card-title{
+    color: #b8801f;
+}
+
+.initiatives-button{
+    margin-top: .5rem;
+}
+
+@media only screen and (max-width: 760px){
+    .card-deck {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-flow: column wrap;
+        flex-flow: column wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+}
+
+
+                        /* Data */
+/* ---------------------------------------------------------------------- */
+
+.data {
+    position: relative;
+    width: 100%;
+    min-height: 300px;
+    margin: 11px 0;
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, .5);
+}
+
+.data .data-item {
+    display: flex;
+    flex-direction: row;
+    margin: 25px 0;
+}
+
+.data .data-item i {
+    margin-top: 10px;
+    font-size: 60px;
+    line-height: 60px;
+    color: #FDBE33;
+}
+
+.data .data-text {
+    padding-left: 20px;
+}
+
+.data .data-text h3 {
+    position: relative;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.data .data-text h3::after {
+    position: absolute;
+    top: 0px;
+    color: #ffffff;
+    font-size: 25px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+.data .data-text h3.data-people::after {
+    content: "\f234";
+    right: -36px;
+}
+
+.data .data-text h3.data-country::after {
+    content: "\f57c";
+    right: -28px;
+}
+
+.data .data-text h3.data-rupee::after {
+    content: "\f156";
+    right: -18px;
+}
+
+.data .data-text p {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0;
+}
+
+                        /* contribute */
+/* ................................................................ */
+
+.donationSection{
+    background-color: #c5d2da47;
+    border-radius: .5rem;
+}
+
+.contribute-row{
+    flex-wrap: wrap-reverse;
+}
+
+#donate-gif{
+    margin-bottom: 20px;
+    border-bottom-left-radius: 11px;
+    border-top-right-radius: 11px;
+    border-bottom-right-radius: 11px;
+    box-shadow: 0px 0px 5px 0px black;
+    max-width: 25rem;
+}
+
+#contribute{
+    font-size: xxx-large;
+    color: #b9801f;
+    margin-bottom: 0px;
+}
+
+#tagline{
+    line-height: 0px;
+    padding-bottom: 12px;
+    margin-bottom: 8px;
+}
+
+.donate-box{
+    box-shadow: 0px 0px 9px 0px black;
+    background-color: rgb(201 201 201 / 18%);
+    border-radius: 21px;
+    color: #b47d1e;
+    font-size: larger;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    padding-top: 1rem;
+}
+
+.donate-box-border{
+    border-color: white;
+}
+
+.contribute-column{
+    margin-left: 18px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 540px){
+    .donate-box{
+        margin-top: 0;
+        padding-top: 0;
+        margin-left: 0;
+    }
+
+    .contribute-column{
+        margin-left: 0;
+    }
+
+    #btn-donation{
+        margin-bottom: .5rem;
+    }
+    
+}
+
+@media only screen and (max-width: 720px){
+    .donate-box{
+        padding-top: 0px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .contribute-column{
+        margin-left: 0;
+    }
+
+    #btn-donation{
+        margin-bottom: .5rem;
+    }
+    
+}
+
+
+#contribute-dis{
+margin-bottom: 1rem;
+}
+
+#donate-gif{
+margin-bottom: .7rem;
+}
+
+
+                /* Footer */
+/* ....................................... */
+
+footer{
+    margin-top: 1rem;
+    padding-top: 2rem;
+}
+
+.footerRow{
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+@media only screen and (min-width: 1000px){
+    .footerRow{
+        justify-content: space-between;
+    }
+}
+
+
+
+.footerHead{
+    font-size: 2rem;
+    color: #b67f1f;
+    margin-bottom: 1rem;
+}
+
+.events>p>a{
+    color:black;
+}
+
+.events{
+    max-width: fit-content;
+}
+
+#footerLogoDis{
+    margin-bottom: 0px;
+    line-height: 1rem;
+    padding-left: 0.19rem;
+}
+
+.footerContent{
+    margin-bottom: 0.8rem;
+}
+
+#footerEmail{
+    width: 100%;
+    height: 3rem;
+}
+
+#footerJoin{
+    width: 100%;
+    height: 3rem;
+}
+
+@media only screen and (max-width: 720px){
+    .footerLogoContainer{
+        margin-top: 1rem;
+    }
+}
+
+@media only screen and (min-width: 750px){
+    #footerEmail{
+        max-width: 21rem;
+    }
+
+    #footerJoin{
+        max-width: 21rem;
+    }
+}
+
+#footerLogo{
+    width: .9rem;
+    }
+    
+    
+#begin{
+    color: #264671;
+}
+
+#copyright{
+    padding-left: 4rem;
+}
+
+
+
