@@ -244,7 +244,7 @@ body{
 }
 
 #tagline{
-    line-height: 0px;
+    line-height: 1rem;
     padding-bottom: 12px;
     margin-bottom: 8px;
 }
